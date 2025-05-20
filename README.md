@@ -21,6 +21,7 @@ A modern, responsive calculator built using **HTML**, **CSS**, and **JavaScript*
 ## 🖼️ Preview
 
 ![Calculator Preview](lightMode.png) <!-- Add a screenshot named screenshot.png -->
+![Calculator Preview](darkMode.png) <!-- Add a screenshot named screenshot.png -->
 
 ---
 
