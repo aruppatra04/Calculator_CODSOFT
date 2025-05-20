@@ -20,7 +20,7 @@ A modern, responsive calculator built using **HTML**, **CSS**, and **JavaScript*
 
 ## 🖼️ Preview
 
-![Calculator Preview](screenshot.png) <!-- Add a screenshot named screenshot.png -->
+![Calculator Preview](lightMode.png) <!-- Add a screenshot named screenshot.png -->
 
 ---
 
