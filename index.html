@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Smart Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Calculator</h1>
+        <button id="themeButton"></button>
+    </nav>
+
+    <main class="main">
+        <div class="calculator">
+            <input type="text" id="display" disabled />
+            <div class="buttons">
+                <button onclick="clearDisplay()">C</button>
+                <button onclick="appendOperator('%')">%</button>
+                <button onclick="appendOperator('mod')">mod</button>
+                <button onclick="deleteLast()">⌫</button>
+
+                <button onclick="appendValue('7')">7</button>
+                <button onclick="appendValue('8')">8</button>
+                <button onclick="appendValue('9')">9</button>
+                <button onclick="appendOperator('÷')">÷</button>
+
+                <button onclick="appendValue('4')">4</button>
+                <button onclick="appendValue('5')">5</button>
+                <button onclick="appendValue('6')">6</button>
+                <button onclick="appendOperator('×')">×</button>
+
+                <button onclick="appendValue('1')">1</button>
+                <button onclick="appendValue('2')">2</button>
+                <button onclick="appendValue('3')">3</button>
+                <button onclick="appendOperator('-')">-</button>
+            </div>
+            <div class="lastrow">
+                <button onclick="appendValue('0')" class="zero">0</button>
+                <button onclick="appendValue('.')">.</button>
+                <button onclick="appendOperator('+')" class="one">+</button>
+                <button onclick="calculate()">=</button>
+            </div>
+
+        </div>
+
+        <div class="history-panel">
+            <div class="history-header">
+                <h2>History</h2>
+                <button id="deleteSelectedBtn">🗑️ Delete Selected</button>
+            </div>
+            <ul id="historyList"></ul>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
